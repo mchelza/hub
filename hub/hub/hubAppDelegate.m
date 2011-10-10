@@ -13,7 +13,7 @@
 @implementation hubAppDelegate
 
 @synthesize window = _window;
-
+@synthesize window = _window;
 @synthesize splitViewController = _splitViewController;
 @synthesize rootViewController = _rootViewController;
 @synthesize detailViewController = _detailViewController;
