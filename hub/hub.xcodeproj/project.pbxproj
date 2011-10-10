@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60CA2C481443075600F74684 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CA2C471443075600F74684 /* UIKit.framework */; };
+		60CA2C4A1443075600F74684 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CA2C491443075600F74684 /* Foundation.framework */; };
+		60CA2C4C1443075600F74684 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CA2C4B1443075600F74684 /* CoreGraphics.framework */; };
+		60CA2C521443075600F74684 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60CA2C501443075600F74684 /* InfoPlist.strings */; };
+		60CA2C541443075600F74684 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CA2C531443075600F74684 /* main.m */; };
+		60CA2C581443075600F74684 /* hubAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CA2C571443075600F74684 /* hubAppDelegate.m */; };
+		60CA2C5B1443075600F74684 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60CA2C591443075600F74684 /* MainWindow.xib */; };
+		60CA2C5E1443075700F74684 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CA2C5D1443075700F74684 /* DetailViewController.m */; };
+		60CA2C611443075700F74684 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60CA2C5F1443075700F74684 /* DetailView.xib */; };
+		60CA2C641443075700F74684 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CA2C631443075700F74684 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60CA2C431443075600F74684 /* hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60CA2C471443075600F74684 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		60CA2C491443075600F74684 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60CA2C4B1443075600F74684 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		60CA2C4F1443075600F74684 /* hub-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hub-Info.plist"; sourceTree = "<group>"; };
+		60CA2C511443075600F74684 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60CA2C531443075600F74684 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60CA2C551443075600F74684 /* hub-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hub-Prefix.pch"; sourceTree = "<group>"; };
+		60CA2C561443075600F74684 /* hubAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hubAppDelegate.h; sourceTree = "<group>"; };
+		60CA2C571443075600F74684 /* hubAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hubAppDelegate.m; sourceTree = "<group>"; };
+		60CA2C5A1443075600F74684 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		60CA2C5C1443075600F74684 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		60CA2C5D1443075700F74684 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		60CA2C601443075700F74684 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailView.xib; sourceTree = "<group>"; };
+		60CA2C621443075700F74684 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		60CA2C631443075700F74684 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60CA2C401443075600F74684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CA2C481443075600F74684 /* UIKit.framework in Frameworks */,
+				60CA2C4A1443075600F74684 /* Foundation.framework in Frameworks */,
+				60CA2C4C1443075600F74684 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60CA2C381443075600F74684 = {
+			isa = PBXGroup;
+			children = (
+				60CA2C4D1443075600F74684 /* hub */,
+				60CA2C461443075600F74684 /* Frameworks */,
+				60CA2C441443075600F74684 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60CA2C441443075600F74684 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60CA2C431443075600F74684 /* hub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60CA2C461443075600F74684 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60CA2C471443075600F74684 /* UIKit.framework */,
+				60CA2C491443075600F74684 /* Foundation.framework */,
+				60CA2C4B1443075600F74684 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60CA2C4D1443075600F74684 /* hub */ = {
+			isa = PBXGroup;
+			children = (
+				60CA2C561443075600F74684 /* hubAppDelegate.h */,
+				60CA2C571443075600F74684 /* hubAppDelegate.m */,
+				60CA2C591443075600F74684 /* MainWindow.xib */,
+				60CA2C5C1443075600F74684 /* DetailViewController.h */,
+				60CA2C5D1443075700F74684 /* DetailViewController.m */,
+				60CA2C5F1443075700F74684 /* DetailView.xib */,
+				60CA2C621443075700F74684 /* RootViewController.h */,
+				60CA2C631443075700F74684 /* RootViewController.m */,
+				60CA2C4E1443075600F74684 /* Supporting Files */,
+			);
+			path = hub;
+			sourceTree = "<group>";
+		};
+		60CA2C4E1443075600F74684 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60CA2C4F1443075600F74684 /* hub-Info.plist */,
+				60CA2C501443075600F74684 /* InfoPlist.strings */,
+				60CA2C531443075600F74684 /* main.m */,
+				60CA2C551443075600F74684 /* hub-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60CA2C421443075600F74684 /* hub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60CA2C671443075700F74684 /* Build configuration list for PBXNativeTarget "hub" */;
+			buildPhases = (
+				60CA2C3F1443075600F74684 /* Sources */,
+				60CA2C401443075600F74684 /* Frameworks */,
+				60CA2C411443075600F74684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hub;
+			productName = hub;
+			productReference = 60CA2C431443075600F74684 /* hub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60CA2C3A1443075600F74684 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 60CA2C3D1443075600F74684 /* Build configuration list for PBXProject "hub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60CA2C381443075600F74684;
+			productRefGroup = 60CA2C441443075600F74684 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60CA2C421443075600F74684 /* hub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60CA2C411443075600F74684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CA2C521443075600F74684 /* InfoPlist.strings in Resources */,
+				60CA2C5B1443075600F74684 /* MainWindow.xib in Resources */,
+				60CA2C611443075700F74684 /* DetailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60CA2C3F1443075600F74684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CA2C541443075600F74684 /* main.m in Sources */,
+				60CA2C581443075600F74684 /* hubAppDelegate.m in Sources */,
+				60CA2C5E1443075700F74684 /* DetailViewController.m in Sources */,
+				60CA2C641443075700F74684 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60CA2C501443075600F74684 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60CA2C511443075600F74684 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		60CA2C591443075600F74684 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60CA2C5A1443075600F74684 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		60CA2C5F1443075700F74684 /* DetailView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60CA2C601443075700F74684 /* en */,
+			);
+			name = DetailView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60CA2C651443075700F74684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		60CA2C661443075700F74684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60CA2C681443075700F74684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hub/hub-Prefix.pch";
+				INFOPLIST_FILE = "hub/hub-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		60CA2C691443075700F74684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hub/hub-Prefix.pch";
+				INFOPLIST_FILE = "hub/hub-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60CA2C3D1443075600F74684 /* Build configuration list for PBXProject "hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CA2C651443075700F74684 /* Debug */,
+				60CA2C661443075700F74684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60CA2C671443075700F74684 /* Build configuration list for PBXNativeTarget "hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CA2C681443075700F74684 /* Debug */,
+				60CA2C691443075700F74684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60CA2C3A1443075600F74684 /* Project object */;
+}
